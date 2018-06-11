@@ -37,6 +37,10 @@ In `.eslintrc.json` under needed repository:
 }
 ```
 
+Then need to install ESLint plugin under your editor.
+
+For example, I use [Visual Studio Code](https://github.com/Microsoft/vscode/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) plugin installed.
+
 [npm-image]: https://badge.fury.io/js/eslint-config-theme-next.svg
 [size-image]: https://img.shields.io/github/size/theme-next/eslint-config-theme-next/index.js.svg
 [dm-image]: https://img.shields.io/npm/dm/eslint-config-theme-next.svg
