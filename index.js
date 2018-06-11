@@ -25,7 +25,7 @@ module.exports = {
     "no-implied-eval": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
-    "no-multi-spaces": 2,
+    "no-multi-spaces": [2, {"exceptions": {"ImportDeclaration": true, "VariableDeclarator": true, "FunctionDeclarator": true, "AssignmentExpression": true, "CallExpression": true}}],
     "no-multi-str": 2,
     "no-new": 2,
     "no-new-func": 2,
