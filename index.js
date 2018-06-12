@@ -15,7 +15,7 @@ module.exports = {
     "curly": [2, "multi-line"],
     "dot-location": [2, "property"],
     "dot-notation": 2,
-    "eqeqeq": [2, "always", {"null": "ignore"}],
+    "eqeqeq": [2, "smart"],
     "no-else-return": 2,
     "no-eval": 2,
     "no-extend-native": 2,
