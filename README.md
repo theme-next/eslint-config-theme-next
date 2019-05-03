@@ -12,7 +12,7 @@
 
 There are two ways to install this configuration preset with `ESLint`: globally or locally.
 
-### Global Installation
+### Global Installation (recommended)
 
 ```bash
 npm install -g eslint
@@ -28,7 +28,7 @@ npm install --save-dev eslint-config-theme-next
 
 ## Usage
 
-In `.eslintrc.json` under needed repository:
+If file `.eslintrc.json` not exists under needed repository, then need to create it:
 
 ```json
 {
@@ -37,9 +37,7 @@ In `.eslintrc.json` under needed repository:
 }
 ```
 
-Then need to install ESLint plugin under your editor.
-
-For example, I use [Visual Studio Code](https://github.com/Microsoft/vscode/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) plugin installed.
+Then need to install ESLint plugin under your editor. For example, I use [Visual Studio Code](https://github.com/Microsoft/vscode/) with [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) plugin installed.
 
 [npm-image]: https://badge.fury.io/js/eslint-config-theme-next.svg
 [size-image]: https://img.shields.io/github/size/theme-next/eslint-config-theme-next/index.js.svg
