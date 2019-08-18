@@ -43,7 +43,7 @@ module.exports = {
     "no-with": 2,
     "prefer-promise-reject-errors": 2,
     "radix": 2,
-    "wrap-iife": 2,
+    "wrap-iife": [2, "inside"],
     "yoda": 2,
 
     // Variables
