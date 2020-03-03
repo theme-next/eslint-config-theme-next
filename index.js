@@ -1,5 +1,8 @@
 module.exports = {
   "extends": ["eslint:recommended"],
+  parserOptions: {
+    ecmaVersion: 2017
+  },
   "rules": {
     // Override recomennded
     "no-console": [2, {"allow": ["warn"]}],
